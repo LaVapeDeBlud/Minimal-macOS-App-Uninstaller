@@ -40,13 +40,13 @@ Press ENTER to exit
 ## Notes
 
 * Only searches **user-level library folders**; no `sudo` required.
-* Optional: skip `Containers` folder to avoid macOS permission prompts.
+* Skips `Containers` folder to avoid macOS permission prompts.
 * Safe: does **not delete anything automatically**.
 
 ---
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0.
-See the LICENSE file for details.
+* This project is licensed under the GNU General Public License v3.0.
+* See the LICENSE file for details.
 ---
