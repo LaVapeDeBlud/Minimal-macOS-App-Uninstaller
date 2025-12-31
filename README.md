@@ -47,6 +47,6 @@ Press ENTER to exit
 
 ## License
 
-MIT License – free to use and modify.
-
+This project is licensed under the GNU General Public License v3.0.
+See the LICENSE file for details.
 ---
