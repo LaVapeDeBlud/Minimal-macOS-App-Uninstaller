@@ -1,7 +1,7 @@
 # The Simplest App Uninstaller
 
 **Tired of macOS app uninstallers that leave things behind?**
-This is the simplest app uninstaller helper—only **33 lines of C++ code**—designed to **find all leftover files** in your `~/Library` so you can remove them manually.
+This is the simplest app uninstaller helper—only **93 lines of C++ code**—designed to **find all leftover files** in your `~/Library` so you can remove them manually.
 
 It’s small, fast, and safe—**nothing is deleted automatically**.
 
@@ -16,9 +16,8 @@ It’s small, fast, and safe—**nothing is deleted automatically**.
   * `~/Library/Caches`
   * `~/Library/Containers`
 * Case-insensitive search for app names.
-* Only **33 lines of code**—easy to read and modify.
 * Displays **all app-related files/folders** for manual cleanup.
-
+* Automatically deletes app-related files/folders (Added in release 1.1.0).
 
 ---
 
@@ -36,7 +35,17 @@ Press ENTER to exit
 ```
 
 ---
+## Usage
 
+* Download the compiled file from the releases section.
+* Open the terminal.
+* Go to wherever the file is stored.
+Run ```text
+./macOS_App_Cleaner
+```
+or whatever the file is named on your system.
+
+---
 ## Notes
 
 * Only searches **user-level library folders**; no `sudo` required.
